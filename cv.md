@@ -12,21 +12,21 @@ I have strong analytical, math and communicative abilities, ability to learn qui
 * Python (beginner)
 * Git/GitHub basic
 ## Code example
-def get_largest_expression_result(a, b):
-    # write your code here
-    if (a + b) > (a - b):
-        if (a + b) > (a * b):   
-            if (a + b) > (a / b): 
-                return a + b
+    def get_largest_expression_result(a, b):
 
-    if (a - b) > (a * b):   
-        if (a - b) > (a / b):
-            return a - b   
+        if (a + b) > (a - b):
+            if (a + b) > (a * b):   
+                if (a + b) > (a / b): 
+                    return a + b
+
+        if (a - b) > (a * b):   
+            if (a - b) > (a / b):
+                return a - b   
   
-    if (a * b) > (a / b): 
-        return a * b    
+        if (a * b) > (a / b): 
+            return a * b    
     
-    return a / b
+        return a / b
 ## Education
 * Kharkiv State University 
 ## Languages 
